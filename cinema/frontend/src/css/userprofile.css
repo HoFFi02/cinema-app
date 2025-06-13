@@ -1,0 +1,22 @@
+.user-profile-container {
+    padding: 20px;
+}
+
+.reservation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.reservation-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.delete-button {
+    margin-left: 10px;
+    background-color: #cc0000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+}

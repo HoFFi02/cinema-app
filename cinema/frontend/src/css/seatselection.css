@@ -1,0 +1,50 @@
+.seat-container {
+    display: grid;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    margin: 2px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.available-seat {
+    background-color: #00aa00;
+    cursor: pointer;
+}
+
+.reserved-seat {
+    background-color: #cc0000;
+    cursor: not-allowed;
+}
+
+.selected-seat {
+    background-color: #666666;
+    cursor: pointer;
+}
+
+.reserve-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.legend {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
